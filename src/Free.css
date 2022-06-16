@@ -1,0 +1,40 @@
+.Card{
+                         width:375px;
+                         height:min-content;
+                      
+                       
+                         margin-top: 25px;
+                         margin-bottom: 25px;
+                         text-align:center;
+                         position: absolute;
+                        
+                         
+                        
+                         
+                       
+}
+.CardContent Button {
+                         font-size: 80%;
+                         
+                         
+                         background-color: rgb(126, 126, 212);
+                         letter-spacing: .1rem;
+                         color:white;
+                         font-weight: bold;
+                         padding: 1rem;
+                         width: 100%;
+                        
+                       }
+
+.CardContent Button:hover{
+                         background-color:blue;
+}
+.Card:hover{
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3); 
+}
+.CardContent span{
+                         font-size:15px;
+                         font-weight: normal;
+}
